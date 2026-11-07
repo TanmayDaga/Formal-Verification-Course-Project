@@ -1,0 +1,32 @@
+top: shift_reg
+files:
+  - designs/rtl/shift_reg.v
+buggy_files:
+  - designs/rtl_bug/shift_reg.v
+clock: clk
+reset:
+  name: rst
+  polarity: active_high
+signals:
+  the register output: q
+  the output: q
+  output: q
+  q: q
+  the load signal: load
+  load: load
+  the shift enable: shift_en
+  shift enable: shift_en
+  shift_en: shift_en
+  the data input: din
+  din: din
+  serial in: serial_in
+  serial_in: serial_in
+  the reset: rst
+  reset: rst
+  rst: rst
+constants:
+  zero: "8'd0"
+  "0": "8'd0"
+events:
+  load: load
+  shift: shift_en

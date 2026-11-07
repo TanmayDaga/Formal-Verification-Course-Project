@@ -1,0 +1,27 @@
+top: pwm
+files:
+  - designs/rtl/pwm.v
+buggy_files:
+  - designs/rtl_bug/pwm.v
+clock: clk
+reset:
+  name: rst
+  polarity: active_high
+signals:
+  the pwm output: out
+  pwm output: out
+  the output: out
+  output: out
+  out: out
+  the duty cycle: duty
+  duty cycle: duty
+  the duty: duty
+  duty: duty
+  the reset: rst
+  reset: rst
+  rst: rst
+constants:
+  zero: "8'd0"
+  max: "8'd255"
+  "0": "8'd0"
+  "255": "8'd255"

@@ -1,0 +1,29 @@
+top: arbiter
+files:
+  - designs/rtl/arbiter.v
+buggy_files:
+  - designs/rtl_bug/arbiter.v
+clock: clk
+reset:
+  name: rst
+  polarity: active_high
+signals:
+  grant 0: gnt0
+  grant 1: gnt1
+  request 0: req0
+  request 1: req1
+  gnt0: gnt0
+  gnt1: gnt1
+  req0: req0
+  req1: req1
+  the reset: rst
+  reset: rst
+  rst: rst
+constants:
+  zero: "1'b0"
+  one: "1'b1"
+  "0": "1'b0"
+  "1": "1'b1"
+events:
+  request 0: req0
+  request 1: req1

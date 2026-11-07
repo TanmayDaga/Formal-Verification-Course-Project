@@ -1,0 +1,15 @@
+requirements:
+  - id: C01
+    text: count must be 0 after reset
+  - id: C02
+    text: count must never exceed 15
+  - id: C03
+    text: If count equals 15 and en then count equals 15 in the next cycle
+  - id: C04
+    text: count must remain stable while not en
+  - id: C05
+    text: count must only change when en
+  - id: C06
+    text: If en and count equals 0 then count is greater than 0 in the next cycle
+  - id: C07
+    text: The counter should feel responsive and fast.

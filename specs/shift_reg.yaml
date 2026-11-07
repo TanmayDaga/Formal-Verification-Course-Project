@@ -1,0 +1,13 @@
+requirements:
+  - id: S01
+    text: q must be 0 after reset
+  - id: S02
+    text: If load then q equals din in the next cycle
+  - id: S03
+    text: If load and shift_en then q equals din in the next cycle
+  - id: S04
+    text: q must remain stable while not load and not shift_en
+  - id: S05
+    text: q must only change when load or shift_en
+  - id: S06
+    text: always q is greater than or equal to 0

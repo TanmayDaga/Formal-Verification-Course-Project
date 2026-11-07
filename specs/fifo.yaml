@@ -1,0 +1,15 @@
+requirements:
+  - id: F01
+    text: the fifo count must be 0 after reset
+  - id: F02
+    text: the fifo count must never exceed 4
+  - id: F03
+    text: the fifo is full and the fifo is empty are mutually exclusive
+  - id: F04
+    text: If a write and not a read and not the fifo is full then the fifo count is greater than 0 in the next cycle
+  - id: F05
+    text: If the fifo is full and a write and not a read then the fifo count equals 4 in the next cycle
+  - id: F06
+    text: the fifo count must stay at 4 when the fifo is full and not a read
+  - id: F07
+    text: fifo_cnt must never exceed 4

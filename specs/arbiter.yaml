@@ -1,0 +1,15 @@
+requirements:
+  - id: A01
+    text: grant 0 and grant 1 are mutually exclusive
+  - id: A02
+    text: grant 0 must be 0 after reset
+  - id: A03
+    text: grant 1 must be 0 after reset
+  - id: A04
+    text: If request 0 then grant 0 in the next cycle
+  - id: A05
+    text: If request 0 and request 1 then grant 1 equals 0 in the next cycle
+  - id: A06
+    text: If not request 0 and request 1 then grant 1 in the next cycle
+  - id: A07
+    text: If not request 0 and not request 1 then grant 0 equals 0 in the next cycle

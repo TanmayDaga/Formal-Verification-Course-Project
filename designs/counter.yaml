@@ -1,0 +1,28 @@
+top: counter
+files:
+  - designs/rtl/counter.v
+buggy_files:
+  - designs/rtl_bug/counter.v
+clock: clk
+depth: 25
+reset:
+  name: rst
+  polarity: active_high
+signals:
+  the counter: count
+  counter: count
+  the count: count
+  count: count
+  the enable: en
+  enable: en
+  en: en
+  the reset: rst
+  reset: rst
+  rst: rst
+constants:
+  max: "4'd15"
+  zero: "4'd0"
+  "15": "4'd15"
+  "0": "4'd0"
+events:
+  enabled: en

@@ -1,0 +1,15 @@
+requirements:
+  - id: T01
+    text: state must be RED after reset
+  - id: T02
+    text: red light and green light are mutually exclusive
+  - id: T03
+    text: red light and yellow light are mutually exclusive
+  - id: T04
+    text: green light and yellow light are mutually exclusive
+  - id: T05
+    text: state equals GREEN must never be followed by state equals RED in the next cycle
+  - id: T06
+    text: If state equals GREEN then state equals YELLOW within 4 cycles
+  - id: T07
+    text: The lights must look pleasant to motorists.

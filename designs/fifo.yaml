@@ -1,0 +1,43 @@
+top: fifo
+files:
+  - designs/rtl/fifo.v
+buggy_files:
+  - designs/rtl_bug/fifo.v
+clock: clk
+reset:
+  name: rst
+  polarity: active_high
+signals:
+  the fifo is full: full
+  fifo is full: full
+  the fifo is empty: empty
+  fifo is empty: empty
+  the fifo count: cnt
+  fifo count: cnt
+  full: full
+  empty: empty
+  cnt: cnt
+  a write: wr_en
+  write: wr_en
+  wr_en: wr_en
+  a read: rd_en
+  read: rd_en
+  rd_en: rd_en
+  the data input: din
+  data in: din
+  din: din
+  the data output: dout
+  data out: dout
+  dout: dout
+  the reset: rst
+  reset: rst
+  rst: rst
+constants:
+  zero: "3'd0"
+  max: "3'd4"
+  four: "3'd4"
+  "0": "3'd0"
+  "4": "3'd4"
+events:
+  write: wr_en
+  read: rd_en

@@ -1,0 +1,31 @@
+top: traffic
+files:
+  - designs/rtl/traffic.v
+buggy_files:
+  - designs/rtl_bug/traffic.v
+clock: clk
+reset:
+  name: rst
+  polarity: active_high
+signals:
+  the state: state
+  state: state
+  the red light: red
+  red light: red
+  red: red
+  the green light: green
+  green light: green
+  green: green
+  the yellow light: yellow
+  yellow light: yellow
+  yellow: yellow
+  the reset: rst
+  reset: rst
+  rst: rst
+constants:
+  RED: "2'd0"
+  GREEN: "2'd1"
+  YELLOW: "2'd2"
+  "0": "2'd0"
+  "1": "2'd1"
+  "2": "2'd2"
